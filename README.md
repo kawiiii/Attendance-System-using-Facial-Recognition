@@ -14,5 +14,12 @@ I have used Histogram Equalization technique to automatically adjust the brightn
 A label is assigned to every person and all the pictures of that person are given the same label. Then all the images are converted to NumPy arrays for training. 
 After faces are detected, and converted to grayscale images, faces are recognized using the training data. The labels assigned to pictures while training the data are returned and those labels are the indexes of the CMS IDs and names of people recognized! . After that the attendance of students is maintained using the .csv file.
 
+Instructions :
+
+1) Run the store_imgs.py file first .
+2) Install the haarcascade frontal face classifier and then run your train.py
+3) Finally , run the face_recognizer.py to detect the faces : ) 
+
+
 
 
